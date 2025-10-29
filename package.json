@@ -1,0 +1,19 @@
+{
+  "name": "ksr-bot-vercel",
+  "version": "1.0.0",
+  "description": "Telegram bot for car rental",
+  "main": "api/webhook.js",
+  "scripts": {
+    "dev": "node src/bot.js",
+    "vercel-build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "dotenv": "^17.2.3",
+    "node-cron": "^3.0.3",
+    "telegraf": "^4.15.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
